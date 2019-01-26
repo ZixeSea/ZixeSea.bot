@@ -7,7 +7,7 @@
     "test": "nodemon bot.js"
   },
   "author": "AnimeGlitch.exe#1234",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^11.4.2",
     "enmap": "^4.6.5"
