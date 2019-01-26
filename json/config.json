@@ -1,0 +1,11 @@
+{
+    "token": "Bot token here!!",
+    "prefix": "-",
+    "ownerID": "98822055402688512",
+    "welcomeChannel": "478558814799659008",
+    "logChannel": "531485771107008539",
+    "defaultAvatar": "https://www.lewesac.co.uk/wp-content/uploads/2017/12/default-avatar.jpg",
+    "memberRole": "366276327348764694",
+    "serverMembersRole": "489070650615660554",
+    "banHasPermissions": "KICK_MEMBERS"
+}
