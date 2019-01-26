@@ -1,12 +1,12 @@
 {
-  "name": "animeglitch.bot-v2",
+  "name": "zixesea.bot-v2",
   "version": "2.0.0",
-  "description": "ANimeGlitch bot is a custom made bot for the discord server AnimeGlitch INC.",
+  "description": "ZixeSea.bot is a custom made bot for the discord server AnimeGlitch INC.",
   "main": "bot.js",
   "scripts": {
     "test": "nodemon bot.js"
   },
-  "author": "AnimeGlitch.exe#1234",
+  "author": "ZixeSea",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^11.4.2",
