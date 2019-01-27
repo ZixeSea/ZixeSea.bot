@@ -3,6 +3,7 @@
 [<img src="https://discordapp.com/api/guilds/98834803738054656/embed.png">](https://discordapp.com/invite/bZt8WkS/)
 [<img src="https://img.shields.io/badge/discord-js-blue.svg">](https://github.com/discordjs/discord.js/)
 [<img src="https://img.shields.io/badge/Version-2.0.0-green.svg">](https://github.com/ZixeSea/ZixeSea.bot/)
+[<img src="https://img.shields.io/badge/In%20progress-yes-green.svg">](https://animeglitch.net/)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ZixeSea/ZixeSea.bot/blob/master/LICENSE.md) file for details
