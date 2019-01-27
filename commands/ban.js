@@ -11,8 +11,8 @@ exports.run = async (client, message, args) => {
 
 
     if (reason === "1" && message.member.hasPermission("ADMINISTRATOR")) {
-        return message.reply(await client.functions.createBanMessage(client, message, username, client.strings.ban_reason_1));
-        //return username.ban(7);
+        message.reply(await client.functions.createBanMessage(client, message, username, client.strings.ban_reason_1));
+        return username.ban(7);
     } else {
         message.reply(client.strings.ban_use_numbers);
     }

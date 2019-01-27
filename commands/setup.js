@@ -5,7 +5,7 @@ exports.run = (client, message, args) => {
             .setColor("#1177ff")
             .addField("Main Desktop", client.strings.setup_desktop)
             .addField("Accessories", client.strings.setup_accessories)
-            .addField("Extra", client.strings.setup_extra)
+            .addField("Extra", client.strings.setup_extra);
 
         message.reply(embed);
     } catch (error) {

@@ -14,8 +14,6 @@
     "restart_error": "Couldn't stop the bot.",
     "invite_message": "Use this link: https://discordapp.com/invite/bZt8WkS",
     "invite_error": "Couldn't send the invite message.",
-    "commands_message": "Here are all the commands you can use.\n-ping (A test command).\n-invite (Gives you a invite link).",
-    "commands_error": "Couldn't send the commands message.",
     "ban_user_message": " is now banned for the server.",
     "unban_request_to_user": "If you think the is incorrect or you want to do an unban-request then add ZixeSea#1234 to your friends.",
     "createBanMessage_error": "Couldn't send the ban / unban information.",
@@ -49,5 +47,9 @@
     "setup_accessories": "**Monitor:** MSI Optix MAG27CQ and Samsung LC27F591FDU\n**Mouse:** Logitech G502\n**Keyboard:** Logitech G810\n**Headphones:** Sony WH-1000XM2 and Logitech G933\n**Speakers:** Logitech Z313\n**Microphone:** NW-700 with NW-100\n**Controller:** Xbox 360 with wireless windows adapter\n**Drawpad:** Huion 420\n",
     "setup_extra": "**Laptop:** Asus VivoBook Pro N580VD-E4392T\n**Phone:** Samsung note 9 128GB\n**Watch:** Samsung gear S3\n**Raspberry:** Pi 3 Model B (I'm running on it :P)\n",
     "setup_error": "Couldn't send the setup message.",
-    "disconnect_log": "This is the event that disconnected you, "
+    "disconnect_log": "This is the event that disconnected you, ",
+    "normal_commands": "**-help** [ Sends all the available commands. ]\n**-ping** [ Sends the Latency. ]\n**-setup** [ Sends a list of my setup. ]\n**-invite** [ Sends you the invite link to my server. ]\n**-google <text>** [ Sends you a google search link. ]",
+    "staff_commands": "**-say <text>** [ The bot will say your text. ]\n**-ban <reason> <user>** [ Ban a user for a reason. ]",
+    "owner_commands": "**-reload <command>** [ Reloads a command without a restart. ]\n**-restart** [ Kill and restarts the bot. ]",
+    "commands_error": "Couldn't send the commands message."
 }
