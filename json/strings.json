@@ -48,5 +48,6 @@
     "setup_desktop": "**CPU:** Intel I7-6700K\n**Motherboard:** MSI B150A Gaming Pro\n**Memory:** Corsair Vengeance LPX 16GB\n**Video card:** Gigabyte RTX 2060 and EVGA GTX 970\n**Storage:** Samsung 860 EVO 500GB, WD cavlar blue 500GB and Toshiba 1TB\n**Power supply:** Corsair Builder 750 w\n**Case:** Raijntek AGOS ATX\n",
     "setup_accessories": "**Monitor:** MSI Optix MAG27CQ and Samsung LC27F591FDU\n**Mouse:** Logitech G502\n**Keyboard:** Logitech G810\n**Headphones:** Sony WH-1000XM2 and Logitech G933\n**Speakers:** Logitech Z313\n**Microphone:** NW-700 with NW-100\n**Controller:** Xbox 360 with wireless windows adapter\n**Drawpad:** Huion 420\n",
     "setup_extra": "**Laptop:** Asus VivoBook Pro N580VD-E4392T\n**Phone:** Samsung note 9 128GB\n**Watch:** Samsung gear S3\n**Raspberry:** Pi 3 Model B (I'm running on it :P)\n",
-    "setup_error": "Couldn't send the setup message."
+    "setup_error": "Couldn't send the setup message.",
+    "disconnect_log": "This is the event that disconnected you, "
 }
