@@ -30,7 +30,7 @@
     "ban_no_mention": "Please mention a valid member of this server (-ban <reason> <@user>).",
     "ban_not_yourself": "You can't ban yourself.",
     "ban_someone_higher": "You can't ban someone that has the same rank or higher than you have.",
-    "ban_not_bannable": "I can't ban this user because the user has a higher rank then me or he is the server owner.",
+    "ban_not_bannable": "I can't ban this user because the user has a higher rank then me (the bot) or he is the server owner.",
     "ban_wrong_reason_number": "Please provide the number of the rule that the user broke (-ban <reason> <@user>).",
     "member_add_role":"Oops error will adding roles.\n",
     "member_get_avatar":"Oops error will checking the avatar on join / leave.\n",
@@ -49,7 +49,13 @@
     "setup_error": "Couldn't send the setup message.",
     "disconnect_log": "This is the event that disconnected you, ",
     "normal_commands": "**-help** [ Sends all the available commands. ]\n**-ping** [ Sends the Latency. ]\n**-setup** [ Sends a list of my setup. ]\n**-invite** [ Sends you the invite link to my server. ]\n**-google <text>** [ Sends you a google search link. ]",
-    "staff_commands": "**-say <text>** [ The bot will say your text. ]\n**-ban <reason> <user>** [ Ban a user for a reason. ]",
+    "staff_commands": "**-say <text>** [ The bot will say your text. ]\n**-ban <reason> <@user>** [ Ban a user for a reason. ]\n**-kick <@user>** [ kick a user from the server. ]",
     "owner_commands": "**-reload <command>** [ Reloads a command without a restart. ]\n**-restart** [ Kill and restarts the bot. ]",
-    "commands_error": "Couldn't send the commands message."
+    "commands_error": "Couldn't send the commands message.",
+    "kick_no_permissions": "You don't have the permissions to do this.",
+    "kick_no_mention": "Please mention a valid member of this server (-kick <@user>).",
+    "kick_not_yourself": "You can't kick yourself.",
+    "kick_someone_higher": "You can't kick someone that has the same rank or higher than you have.",
+    "kick_not_bannable": "I can't kick this user because the user has a higher rank then me (the bot) or he is the server owner."
+
 }
