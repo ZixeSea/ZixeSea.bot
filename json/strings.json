@@ -18,7 +18,7 @@
     "unban_request_to_user": "If you think the is incorrect or you want to do an unban-request then add ZixeSea#1234 to your friends.",
     "createBanMessage_error": "Couldn't send the ban / unban information.",
     "ban_reason_1": "#1 The Server Owners are always right and has the last word.",
-    "ban_reason_2": "#2 No suggestive or NSFW pictures / videos in non-NSFW channels. Check the NSFW channel #nsfw-chat.",
+    "ban_reason_2": "#2 No suggestive or NSFW pictures / videos in non-NSFW channels.",
     "ban_reason_3": "#3 No homophobic / racist comments, DDOS threaten or personal attacks / bullying.",
     "ban_reason_4": "#4 Don't use offensive or inappropriate avatars and usernames.",
     "ban_reason_5": "#5 Make sure your username is mentionable.",
