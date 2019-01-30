@@ -4,7 +4,7 @@
 [![Discord.js Badge](https://img.shields.io/badge/discord-js-blue.svg)](https://github.com/discordjs/discord.js)
 [![Version Badge](https://img.shields.io/badge/Version-2.0.0-green.svg)](https://github.com/ZixeSea/ZixeSea.bot)
 [![In progress Badge](https://img.shields.io/badge/In%20progress-yes-green.svg)](https://animeglitch.net)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3eb8a2ad06bf4208ac94ca4ad4efe0f5)](https://www.codacy.com/app/ZixeSea/SteamIdler?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ZixeSea/SteamIdler&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/46609f1f72bc421c8b34fcfc151cc188)](https://www.codacy.com/app/ZixeSea/ZixeSea.bot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ZixeSea/ZixeSea.bot&amp;utm_campaign=Badge_Grade)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ZixeSea/ZixeSea.bot/blob/master/LICENSE.md) file for details
