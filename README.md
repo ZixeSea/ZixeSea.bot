@@ -1,6 +1,6 @@
 # This is ZixeSea.bot, a full custom bot made for my server.
 **But the bot is made in a way that you can simpely add it to you server by using Json file for config and strings.**
-[![Discord Badge](https://discordapp.com/api/guilds/98834803738054656/embed.png)](https://discordapp.com/invite/bZt8WkS/)
+[![Discord Badge](https://discordapp.com/api/guilds/98834803738054656/embed.png)](https://discordapp.com/invite/bZt8WkS)
 [![Discord.js Badge](https://img.shields.io/badge/discord-js-blue.svg)](https://github.com/discordjs/discord.js)
 [![Version Badge](https://img.shields.io/badge/Version-2.0.0-green.svg)](https://github.com/ZixeSea/ZixeSea.bot)
 [![In progress Badge](https://img.shields.io/badge/In%20progress-yes-green.svg)](https://animeglitch.net)
