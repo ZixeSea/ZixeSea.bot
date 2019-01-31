@@ -27,3 +27,11 @@ Once finished:
 >***NOTE:*** Only replace the text `bot token here!!`, so the `""` needs to stay.
 
 - Now run the start.bat file and everything shut be fine.
+
+## Why using ZixeSea.bot?
+  * Code grade of an A.
+  * Easy to make it your own.
+  * Easy to understand and update.
+  * Easy to expend.
+  * MIT license.
+  * Good support and a friendly dev.
