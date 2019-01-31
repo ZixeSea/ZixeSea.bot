@@ -4,7 +4,7 @@ exports.run = (client, message, args) => {
         message.reply(client.strings.restart_bot);
         client.destroy();
     } catch (error) {
-        console.log(error);
+        console.error(error);
         message.reply(client.strings.restart_error);
     }
 }

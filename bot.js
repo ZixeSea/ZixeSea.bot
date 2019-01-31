@@ -42,7 +42,7 @@ fs.readdir(appDir + "/commands/", (err, files) => {
 });
 
 process.on("unhandledRejection", (reason) => {
-    console.log("Unhandled Rejection: " + reason + ".\n");
+    console.error("Unhandled Rejection: " + reason + ".\n");
 });
 
 client.login(config.token);

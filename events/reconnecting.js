@@ -1,3 +1,3 @@
 module.exports = (client) => {
-    console.log(client.strings.reconnecting_log);
+    console.info(client.strings.reconnecting_log);
 };

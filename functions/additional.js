@@ -20,7 +20,7 @@ module.exports = {
 
             message.guild.channels.get(client.config.logChannel).send(embed);
         } catch (error) {
-            console.log(client.strings.createBanMessage_error);
+            console.error(client.strings.createBanMessage_error);
         }
 
         try {
@@ -37,7 +37,7 @@ module.exports = {
             await client.users.get(user.id).send(embed);
             client.users.get(user.id).send(client.strings.unban_request_to_user);
         } catch (error) {
-            console.log(client.strings.createBanMessage_error);
+            console.error(client.strings.createBanMessage_error);
         }
 
         return user.user.username + client.strings.ban_user_message;

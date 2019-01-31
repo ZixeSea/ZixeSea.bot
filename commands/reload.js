@@ -12,7 +12,7 @@ exports.run = (client, message, args) => {
     client.commands.set(commandName, props);
     message.reply(client.strings.reload_command + commandName);
   } catch (error) {
-    console.log(error);
+    console.error(error);
     message.reply(client.strings.reload_error);
   }
 };
