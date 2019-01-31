@@ -1,3 +1,3 @@
-module.exports = () => {
-    console.warn("Discord Warning: " + reason + ".\n");
+module.exports = (info) => {
+    console.warn("Discord Warning: " + info);
 };

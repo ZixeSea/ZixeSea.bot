@@ -22,7 +22,7 @@ client.args = args;
 
 fs.readdir(appDir + "/events/", (err, files) => {
     if (err) return console.error(err);
-    files.forEach(file => {
+    files.forEach((file) => {
         const event = require(`${appDir}/events/${file}`);
         let eventName = file.split(".")[0];
         client.on(eventName, event.bind(null, client));
@@ -33,7 +33,7 @@ client.commands = new Enmap();
 
 fs.readdir(appDir + "/commands/", (err, files) => {
     if (err) return console.error(err);
-    files.forEach(file => {
+    files.forEach((file) => {
         if (!file.endsWith(".js")) return;
         let props = require(`${appDir}/commands/${file}`);
         let commandName = file.split(".")[0];
@@ -42,7 +42,7 @@ fs.readdir(appDir + "/commands/", (err, files) => {
 });
 
 process.on("unhandledRejection", (reason) => {
-    console.error("Unhandled Rejection: " + reason + ".\n");
+    console.error("Unhandled Rejection: " + reason);
 });
 
 client.login(config.token);

@@ -42,4 +42,4 @@ module.exports = {
 
         return user.user.username + client.strings.ban_user_message;
     }
-}
+};

@@ -1,3 +1,3 @@
-module.exports = () => {
-    console.error("Discord Error: " + reason + ".\n");
+module.exports = (error) => {
+    console.error("Discord Error: " + error);
 };
