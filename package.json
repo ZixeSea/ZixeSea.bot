@@ -9,7 +9,8 @@
   "author": "ZixeSea",
   "license": "MIT",
   "dependencies": {
+    "console-stamp": "^0.2.7",
     "discord.js": "^11.4.2",
-    "enmap": "^4.6.5"
+    "enmap": "^4.7.0"
   }
 }
