@@ -4,13 +4,13 @@ module.exports = async (client, member) => {
     try {
         member.addRoles([client.config.memberRole, client.config.serverMembersRole]);
     } catch (error) {
-        console.log(client.strings.member_add_role);
+        console.error(client.strings.member_add_role);
     }
 
     try {
         avatar_url = await client.functions.checkAvatar(client, member.user.avatarURL);
     } catch (error) {
-        console.log(client.strings.member_get_avatar);
+        console.error(client.strings.member_get_avatar);
     }
 
     try {
@@ -23,12 +23,12 @@ module.exports = async (client, member) => {
 
         member.guild.channels.get(client.config.welcomeChannel).send(embed);
     } catch (error) {
-        return console.log(client.strings.member_new_embed_error);
+        return console.error(client.strings.member_new_embed_error);
     }
 
     try {
         member.send(client.strings.dm_welcome_message + client.strings.dm_question_message + client.strings.dm_important_message + client.strings.dm_more_help_message);
     } catch (error) {
-        return console.log(client.strings.member_new_message_error);
+        return console.error(client.strings.member_new_message_error);
     }
 }

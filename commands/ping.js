@@ -9,7 +9,7 @@ exports.run = async (client, message, args) => {
 
         message.channel.send(embed);
     } catch (error) {
-        console.log(error);
+        console.error(error);
         message.reply(client.strings.ping_error);
     }
 }

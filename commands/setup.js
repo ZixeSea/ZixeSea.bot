@@ -9,6 +9,6 @@ exports.run = (client, message, args) => {
 
         message.reply(embed);
     } catch (error) {
-        console.log(client.strings.setup_error);
+        console.error(client.strings.setup_error);
     }
 }

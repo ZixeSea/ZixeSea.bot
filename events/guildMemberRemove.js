@@ -4,7 +4,7 @@ module.exports = async (client, member) => {
     try {
         avatar_url = await client.functions.checkAvatar(client, member.user.avatarURL);
     } catch (error) {
-        console.log(client.strings.member_get_avatar);
+        console.error(client.strings.member_get_avatar);
     }
 
     try {
@@ -16,6 +16,6 @@ module.exports = async (client, member) => {
 
         return member.guild.channels.get(client.config.welcomeChannel).send(embed);
     } catch (error) {
-        return console.log(client.strings.member_leave_embed_error);
+        return console.error(client.strings.member_leave_embed_error);
     }
 }

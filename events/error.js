@@ -1,3 +1,3 @@
 module.exports = () => {
-    console.log("Discord Error: " + reason + ".\n");
+    console.error("Discord Error: " + reason + ".\n");
 };

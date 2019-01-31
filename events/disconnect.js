@@ -1,3 +1,3 @@
 module.exports = (client, event) => {
-    console.log(client.strings.disconnect_log + event);
+    console.info(client.strings.disconnect_log);
 };
