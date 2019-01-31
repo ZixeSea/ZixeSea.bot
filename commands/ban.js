@@ -1,14 +1,29 @@
 exports.run = async (client, message, args) => {
     let reason = args[0];
     let username = message.mentions.members.first();
+    if (!message.member.hasPermission(client.config.banHasPermissions)) {
+        return message.reply(client.strings.ban_no_permissions);
+    }
 
-    if (!message.member.hasPermission(client.config.banHasPermissions)) return message.reply(client.strings.ban_no_permissions);
-    if (!username) return message.reply(client.strings.ban_no_mention);
-    if (message.author.id === username.id) return message.reply(client.strings.ban_not_yourself);
-    if (username.highestRole.position >= message.member.highestRole.position) return message.reply(client.strings.ban_someone_higher);
-    if (!username.bannable) return message.reply(client.strings.ban_not_bannable);
-    if (reason != "1" && reason != "2" && reason != "3" && reason != "4" && reason != "5" && reason != "6" && reason != "7") return message.reply(client.strings.ban_wrong_reason_number);
+    if (!username) {
+        return message.reply(client.strings.ban_no_mention);
+    }
 
+    if (message.author.id === username.id) {
+        return message.reply(client.strings.ban_not_yourself);
+    }
+
+    if (username.highestRole.position >= message.member.highestRole.position) {
+        return message.reply(client.strings.ban_someone_higher);
+    }
+
+    if (!username.bannable) {
+        return message.reply(client.strings.ban_not_bannable);
+    }
+
+    if (reason !== "1" && reason !== "2" && reason !== "3" && reason !== "4" && reason !== "5" && reason !== "6" && reason !== "7") {
+        return message.reply(client.strings.ban_wrong_reason_number);
+    }
 
     if (reason === "1" && message.member.hasPermission("ADMINISTRATOR")) {
         message.reply(await client.functions.createBanMessage(client, message, username, client.strings.ban_reason_1));
@@ -40,4 +55,4 @@ exports.run = async (client, message, args) => {
             message.reply(await client.functions.createBanMessage(client, message, username, client.strings.ban_reason_8));
             return username.ban(7);
     }
-}
+};

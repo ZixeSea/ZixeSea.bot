@@ -1,15 +1,14 @@
 module.exports = async (client, member) => {
-    let avatar_url;
-
+    let avatarUrl;
     try {
-        avatar_url = await client.functions.checkAvatar(client, member.user.avatarURL);
+        avatarUrl = await client.functions.checkAvatar(client, member.user.avatarURL);
     } catch (error) {
         console.error(client.strings.member_get_avatar);
     }
 
     try {
         let embed = new client.discord.RichEmbed()
-            .setAuthor(member.user.username + " has left the server.", avatar_url)
+            .setAuthor(member.user.username + " has left the server.", avatarUrl)
             .setDescription("Until the next time (maybe :cry:).")
             .setColor("#28dfef")
             .setTimestamp();
@@ -18,4 +17,4 @@ module.exports = async (client, member) => {
     } catch (error) {
         return console.error(client.strings.member_leave_embed_error);
     }
-}
+};
