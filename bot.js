@@ -21,7 +21,10 @@ client.appDir = appDir;
 client.args = args;
 
 fs.readdir(appDir + "/events/", (err, files) => {
-    if (err) return console.error(err);
+    if (err) {
+        return console.error(err);
+    }
+
     files.forEach((file) => {
         const event = require(`${appDir}/events/${file}`);
         let eventName = file.split(".")[0];
@@ -32,7 +35,10 @@ fs.readdir(appDir + "/events/", (err, files) => {
 client.commands = new Enmap();
 
 fs.readdir(appDir + "/commands/", (err, files) => {
-    if (err) return console.error(err);
+    if (err) {
+        return console.error(err);
+    }
+    
     files.forEach((file) => {
         if (!file.endsWith(".js")) return;
         let props = require(`${appDir}/commands/${file}`);
