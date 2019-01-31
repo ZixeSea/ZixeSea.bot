@@ -8,12 +8,14 @@ const appDir = path.dirname(require.main.filename);
 const config = require(appDir + "/json/config.json");
 const strings = require(appDir + "/json/strings.json");
 const functions = require(appDir + "/functions/additional.js");
+const args = process.argv.slice(2);
 
 client.config = config;
 client.strings = strings;
 client.functions = functions;
 client.discord = Discord;
 client.appDir = appDir;
+client.args = args;
 
 fs.readdir(appDir + "/events/", (err, files) => {
     if (err) return console.error(err);
