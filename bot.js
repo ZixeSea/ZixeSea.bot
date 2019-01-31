@@ -4,6 +4,9 @@ const fs = require("fs");
 const path = require("path");
 const client = new Discord.Client();
 const appDir = path.dirname(require.main.filename);
+require("console-stamp")(console, {
+    pattern: 'dd/mm/yyyy HH:MM:ss'
+});
 
 const config = require(appDir + "/json/config.json");
 const strings = require(appDir + "/json/strings.json");
