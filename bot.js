@@ -5,7 +5,7 @@ const path = require("path");
 const client = new Discord.Client();
 const appDir = path.dirname(require.main.filename);
 require("console-stamp")(console, {
-    pattern: 'dd/mm/yyyy HH:MM:ss'
+    pattern: "dd/mm/yyyy HH:MM:ss"
 });
 
 const config = require(appDir + "/json/config.json");
