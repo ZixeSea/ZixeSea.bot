@@ -1,10 +1,11 @@
 # This is ZixeSea.bot, a full custom bot made for my server.
-**But the bot is made in a way that you can simpely add it to you server by using Json file for config and strings.**
 [![Discord Badge](https://discordapp.com/api/guilds/98834803738054656/embed.png)](https://discordapp.com/invite/bZt8WkS)
 [![Discord.js Badge](https://img.shields.io/badge/discord-js-blue.svg)](https://github.com/discordjs/discord.js)
 [![Version Badge](https://img.shields.io/badge/Version-2.0.0-green.svg)](https://github.com/ZixeSea/ZixeSea.bot)
 [![In progress Badge](https://img.shields.io/badge/In%20progress-no-red.svg)](https://zixesea.com)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/46609f1f72bc421c8b34fcfc151cc188)](https://www.codacy.com/app/ZixeSea/ZixeSea.bot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ZixeSea/ZixeSea.bot&amp;utm_campaign=Badge_Grade)
+
+**But the bot is made in a way that you can simpely add it to you server by using Json file for config and strings.**
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ZixeSea/ZixeSea.bot/blob/master/LICENSE.md) file for details
