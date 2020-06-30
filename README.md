@@ -3,7 +3,7 @@
 [![Discord Badge](https://discordapp.com/api/guilds/98834803738054656/embed.png)](https://discordapp.com/invite/bZt8WkS)
 [![Discord.js Badge](https://img.shields.io/badge/discord-js-blue.svg)](https://github.com/discordjs/discord.js)
 [![Version Badge](https://img.shields.io/badge/Version-2.0.0-green.svg)](https://github.com/ZixeSea/ZixeSea.bot)
-[![In progress Badge](https://img.shields.io/badge/In%20progress-no-red.svg)](https://animeglitch.net)
+[![In progress Badge](https://img.shields.io/badge/In%20progress-no-red.svg)](https://zixesea.com)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/46609f1f72bc421c8b34fcfc151cc188)](https://www.codacy.com/app/ZixeSea/ZixeSea.bot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ZixeSea/ZixeSea.bot&amp;utm_campaign=Badge_Grade)
 
 ## License
@@ -21,12 +21,12 @@ In a command prompt in your project's folder (wherever that may be) run the foll
 
 Once finished:
 
-- In the folder from where you ran the git command, run `cd ZixeSea.bot` and then run `npm install`, this will install all required packages.
+- In the folder from where you ran the git command, run `cd ZixeSea.bot` and then run `npm i`, this will install all required packages.
 
 - Now go to `ZixeSea.bot/json/config.json` and open it, and place you token in `"token": "Bot token here!!"`
 >***NOTE:*** Only replace the text `bot token here!!`, so the `""` needs to stay.
 
-- Now run the start.bat file and everything shut be fine.
+- Now run the program by running `npm .` in a command prompt.
 
 ## Why using ZixeSea.bot?
   * Code grade of an A.
